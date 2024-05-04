@@ -1,0 +1,97 @@
+{
+    "metadata": {
+      "title": "Sample PDF Document",
+      "author": "John Doe",
+      "creationDate": "2024-03-08"
+    },
+    "header": {
+      "content": "Header Content",
+      "metadata": {
+        "fontSize": 12,
+        "align": "center"
+      }
+    },
+    "footer": {
+      "content": "Page {{pageNumber}} of {{totalPages}}",
+      "metadata": {
+        "fontSize": 10,
+        "align": "center"
+      }
+    },
+    "content": [
+      {
+        "type": "heading",
+        "text": "Introduction",
+        "metadata": {
+          "fontSize": 18,
+          "fontStyle": "bold",
+          "marginBottom": 10
+        }
+      },
+      {
+        "type": "paragraph",
+        "text": "This is a sample PDF document generated using JSON data.",
+        "metadata": {
+          "fontSize": 12,
+          "marginBottom": 10
+        }
+      },
+      {
+        "type": "heading",
+        "text": "Section 1",
+        "metadata": {
+          "fontSize": 16,
+          "fontStyle": "bold",
+          "marginBottom": 10
+        }
+      },
+      {
+        "type": "paragraph",
+        "text": "This is the first section of the document.",
+        "metadata": {
+          "fontSize": 12,
+          "marginBottom": 10
+        }
+      },
+      {
+        "type": "list",
+        "items": ["Item 1", "Item 2", "Item 3"],
+        "metadata": {
+          "fontSize": 12,
+          "bulletType": "circle",
+          "marginBottom": 5
+        }
+      },
+      {
+        "type": "heading",
+        "text": "Section 2",
+        "metadata": {
+          "fontSize": 16,
+          "fontStyle": "bold",
+          "marginBottom": 10
+        }
+      },
+      {
+        "type": "paragraph",
+        "text": "This is the second section of the document.",
+        "metadata": {
+          "fontSize": 12,
+          "marginBottom": 10
+        }
+      },
+      {
+        "type": "table",
+        "data": [
+          ["Column 1", "Column 2", "Column 3"],
+          ["Data 1", "Data 2", "Data 3"],
+          ["Data 4", "Data 5", "Data 6"]
+        ],
+        "metadata": {
+          "fontSize": 10,
+          "borderColor": "#000000",
+          "marginBottom": 10
+        }
+      }
+    ]
+  }
+  
